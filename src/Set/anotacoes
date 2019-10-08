@@ -1,0 +1,14 @@
+o HashSet Funciona como um conjunto e eh a operacao mais rapida
+insere nao ordenado 
+
+o TreeSet eh ordenado pelo compareTo ou comparator eh o mais lento na ordem de LOG DE N
+ja guarda o conteudo todo ordenado por isso a classe que ele vai implementar tem que ter o compareTo ou o comparator
+
+o LinkedHashSet guarda a ordem de insercao e nao a ordem de comparacao entre eles com o TreeSet
+por isso nao precisa da implementacao do compareTo ou Comparator
+
+OBS: NAO ACEITA REPETICOES NO CONJUNTO
+
+//o Set testa a igualdade com o hashcode e se der igual ele testa o equals
+//Se nao possuir o hashcode e equal overrided ele vai usar os ponteiros em memoria
+

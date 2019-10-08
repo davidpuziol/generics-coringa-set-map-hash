@@ -1,0 +1,15 @@
+O maps funciona com pares chave-valor
+Os valores sao identificados por uma chaves e podem ser qualquer um de qualquer tipo
+Nao admite repeticoes no objeto chave e nao possuem posicao
+O acesso, adicao e remocao sao rapidos
+
+HashMap
+o mais rapido mas nao e ordenado
+
+TreeMap
+mais lento
+ordenado em arvore igual o TreeSet e os tipos tem que ser ordenados pelo compareTo ou comparator
+
+LinkedHashMap
+velocidade intermediaria
+ordenado por ordem de insercao
